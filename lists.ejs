@@ -1,0 +1,28 @@
+<%- include("partials/header")-%>
+    <h4 class="date"><%=date%></h4>
+    <div class="heading">
+    <h1>Welcome to My to do list Web App</h1> 
+
+    <ul>
+        <li>All daily tasks at one place.</li>
+        <li>Here you can add you daily tasks.</li>
+        <li>Seperate windows for completed and pending tasks.</li>
+    </ul>
+    <img src="toDoList.jpg" alt="To Do List">
+        
+</div>
+<div class="input">
+<form action="/" method="post">
+    <h2>Enter Your Tasks here</h2>
+    <h6>Title</h6>
+    <input type="text" size="32" placeholder="Enter Title" name="title" id="">
+    <h6>Content</h6>
+    <textarea name="content" id=""  placeholder="Write down about task..." rows="10" cols="30" ></textarea>
+    <br>
+    <br>
+    <button type="submit" name="add" class="btn btn-primary">Add Task </button>
+</form>
+
+
+</div>
+<%- include("partials/footer")-%>

@@ -1,0 +1,48 @@
+
+body{
+    background-image: url("back_background.png")
+}
+.date{max-width: 250px;
+    margin: 50px auto;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+    background-color: #448ca1;
+  text-align: center;
+}
+div{
+    display: inline-block;
+}
+h1{
+    font-family:cursive;
+    color: rgb(192, 40, 146);
+    
+}
+.date{
+    color: white;
+}
+img{
+    height: 300px;
+    width: 400px;
+    display:inline-block
+}
+  
+.input{
+    position: absolute;
+    margin-left: 400px;
+}
+
+h2{
+    font-family:cursive;
+    color: rgb(192, 40, 146);
+}
+
+.result{
+    margin-left: 20px;
+}
+table{
+    border: 10px;
+}
+li{
+    color: rgb(63, 146, 201);
+}
